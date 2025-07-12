@@ -251,8 +251,9 @@ Open frontend/index.html in browser
 ## 👨‍💻 Developed By
 
 * Arya Keskar
-
-> All code written from scratch, backend-first, with a focus on clarity, modularity, and demo-readiness for evaluation.
+* Tanay Shah
+* Aditya Deshmukh
+* Suyash Agarwal
 
 ---
 
