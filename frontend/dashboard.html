@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard - Skill Swap</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>👤 Dashboard</h1>
+    <div class="card">
+      <form id="dashboardForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+
+        <input type="text" id="skillsOffered" placeholder="Skills Offered (e.g. Photoshop, Java)" />
+        <input type="text" id="skillsWanted" placeholder="Skills Wanted (e.g. Excel, React)" />
+
+        <select id="availability">
+          <option value="">Select Availability</option>
+          <option value="Weekends">Weekends</option>
+          <option value="Evenings">Evenings</option>
+          <option value="Flexible">Flexible</option>
+        </select>
+
+        <label class="toggle">
+          <input type="checkbox" id="isPublic" checked />
+          <span class="slider"></span>
+          <span class="label-text">Public Profile</span>
+        </label>
+        <form>
+            <div class="profile-photo">
+                <label for="photoInput" class="photo-label">
+                    Upload Profile Photo
+                    <input type="file" id="photoInput" accept="image/*" />
+                </label>
+                <img id="previewImage" src="" alt="Preview" />
+            </div>
+        </form>
+        <button type="submit">Save Changes</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

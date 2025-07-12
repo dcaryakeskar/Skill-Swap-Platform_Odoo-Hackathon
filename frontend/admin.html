@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Panel - Skill Swap</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🛡️ Admin Panel</h1>
+
+    <section class="card">
+      <h2>📢 Send Message</h2>
+      <textarea id="adminMessage" placeholder="Enter a message to send to all users..."></textarea>
+      <button onclick="sendMessage()">Send</button>
+    </section>
+
+    <section class="card">
+      <h2>👥 User Management</h2>
+      <div id="userList" class="user-cards"></div>
+    </section>
+
+    <section class="card">
+      <h2>📊 Reports</h2>
+      <button onclick="downloadReport('users')">Download User Report</button>
+      <button onclick="downloadReport('swaps')">Download Swap Stats</button>
+      <button onclick="downloadReport('feedback')">Download Feedback Logs</button>
+    </section>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
