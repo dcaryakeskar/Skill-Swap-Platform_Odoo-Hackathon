@@ -1,6 +1,6 @@
 const users = [
   { id: 2, name: "Beta Tester", skillsOffered: "React", skillsWanted: "Photoshop" },
-  { id: 3, name: "Jane Smith", skillsOffered: "Excel", skillsWanted: "Video Editing" },
+  { id: 3, name: "Arya Keskar", skillsOffered: "Excel", skillsWanted: "Video Editing" },
 ];
 
 const searchInput = document.getElementById("searchInput");
