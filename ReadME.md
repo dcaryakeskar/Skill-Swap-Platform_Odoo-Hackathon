@@ -236,7 +236,7 @@ Open frontend/index.html in browser
 * Admin features are robust — logs, bans, message broadcast all work
 * UI is responsive and modular — can be themed quickly for demo
 * Designed with performance and simplicity in mind
-
+* Video Link -> https://drive.google.com/file/d/1IRA3c6lhZK-PbvHwAXn6AbTfr7IgW2nI/view?usp=sharing
 ---
 
 ## 📥 Future Scope (Optional Add-ons)
